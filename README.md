@@ -58,6 +58,9 @@ git clone https://github.com/abeatrizdscoelho/T4.git
 ### Instalando as Dependências
 > Abra um terminal no VSCode para instalar as dependências.
 ```bash
+cd T4
+  ```
+```bash
 npm install
   ```
 
