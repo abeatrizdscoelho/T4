@@ -38,8 +38,9 @@ Este guia oferece instruções detalhadas sobre como baixar, configurar e execut
 
 Para garantir o funcionamento correto do projeto, recomenda-se utilizar:
 
+- **Java (JDK 17+)**
 - **NPM:** versão 8.x ou superior
-- **Node.js** entre **v16.0.0 e v20.0.0**: Ambiente de execução de JavaScript open-source. [Baixe o Node.js](https://nodejs.org/en/download)
+- **Node.js** entre **v16.0.0 e v20.0.0**: Ambiente de execução de JavaScript open-source. [Baixe o Node.js](https://nodejs.org/en/download) 
 
 #### 📌 Observações
 O uso de versões mais recentes, como Node v22.x, pode causar incompatibilidades com pacotes como `react-scripts`.  
@@ -52,16 +53,8 @@ Este projeto foi testado com Node v22.13.0 e funcionou corretamente, mas o supor
 ```bash
 git clone https://github.com/abeatrizdscoelho/T4.git
   ```
-
----
-
-### Instalando as Dependências
-> Abra um terminal no VSCode para instalar as dependências.
 ```bash
 cd T4
-  ```
-```bash
-npm install
   ```
 
 ---
@@ -71,8 +64,8 @@ npm install
 #### 1. Abrindo um Terminal
 > Abra um terminal no VSCode para configurar o backend.
 
-#### 2. Configuração e Execução 
-> Navegue até a pasta do executável:
+#### 2. Configuração e Execução do Backend
+> Navegue até a pasta onde está o `.jar`:
 ```bash
 cd executavel
   ```
@@ -93,6 +86,11 @@ java -jar wbbackend.jar
 > Navegue até a pasta do frontend:
 ```bash
 cd frontend
+  ```
+
+> Instale as dependências:
+```bash
+npm install
   ```
 
 > Inicie a aplicação:
